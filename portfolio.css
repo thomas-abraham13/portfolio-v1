@@ -199,7 +199,7 @@ header .brand {
 
 header > nav > ul {
     display: inline-block;
-    float: left;
+    /* float: left; */
     padding: 0px 16px;
     text-align: center;
 }
