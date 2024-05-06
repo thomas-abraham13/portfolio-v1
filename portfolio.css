@@ -211,3 +211,34 @@ header > nav > ul > li > a {
     font-family: "Inconsolata", monospace;
     font-weight: 600;
 }
+
+@media only screen and (min-width: 1000px) {
+    header .brand {
+        margin: 31px 0px;
+        text-align: left;
+        line-height: 38px;
+        padding: 0px 20px 0px 40px;
+        border-right: solid 2px #111;
+        float: left;
+    }
+
+    header > nav > ul {
+        display: block;
+        margin: 20px 0px 0px 20px;
+        float: left;
+    }
+
+    header > nav > ul > li {
+        display: inline-block;
+        /* float: left; */
+        padding: 0px 16px;
+        text-align: center;
+    }
+
+    header > nav > ul > li > a {
+        font-size: 16px;
+        color: #111;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+}
