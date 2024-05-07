@@ -431,3 +431,49 @@ header > nav > ul > li > a {
     padding: 10px 0;
     font-family: "Roboto Mono", monospace;
 }
+
+.project-photo img {
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.project-photo article h3 {
+    font-size: 24px;
+    color: #111;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    font-family: "Inconsolata", monospace;
+    text-decoration: underline;
+}
+
+.project-vid video {
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 40%;
+}
+
+.project-vid h2 {
+    border-top: solid 2px #f2f2f2;
+    font-size: 24px;
+    color: #111;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-family: "Roboto Mono", monospace;
+}
+
+.project-vid article h3 {
+    font-size: 24px;
+    color: #111;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    font-family: "Inconsolata", monospace;
+    text-decoration: underline;
+}
