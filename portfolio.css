@@ -477,3 +477,241 @@ header > nav > ul > li > a {
     font-family: "Inconsolata", monospace;
     text-decoration: underline;
 }
+
+.project-vid article div p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #111;
+    font-weight: 300;
+    font-family: "Abel", sans-serif;
+}
+
+.project-photo article div p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #111;
+    font-weight: 300;
+    font-family: "Abel", sans-serif;
+}
+
+#square1 {
+    border-left-color: hotpink;
+}
+
+#square2 {
+    border-left-color: hotpink;
+}
+
+#square3 {
+    border-left-color: hotpink;
+}
+
+/*About Me*/
+.skills {
+    font-size: 14px;
+    color: #111;
+    letter-spacing: 2px;
+    font-family: "Inconsolata", monospace;
+}
+
+.summary {
+    font-size: 16px;
+    color: #111;
+    letter-spacing: 2px;
+    font-family: "Inconsolata", monospace;
+}
+
+.contact {
+    font-size: 16px;
+    color: #111;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-family: "Inconsolata", monospace;
+}
+
+.column{
+    width: 1000;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.about-header {
+    font-size: 18px;
+    color: #111;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: "Karla", sans-serif;
+    text-decoration: underline;
+    display: inline;
+}
+
+.sub-header {
+    font-size: 16px;
+    color: #111;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: "Karla", sans-serif;
+}
+
+.sub2-header {
+    font-size: 15px;
+    color: #111;
+    font-weight: 550;
+    letter-spacing: 2px;
+    font-family: "Karla", sans-serif;
+    text-decoration: underline;
+}
+
+.sub3-header {
+    font-size: 14px;
+    color: #111;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: "Karla", sans-serif;
+}
+
+footer {
+    width: calc(100%- 80px);
+    padding: 40px 40px;
+    background-color: #111;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li {
+    display: block;
+    list-style: none;
+}
+
+footer ul li a {
+    font-size: 14px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.footer-sm {
+    width: 60px;
+    float: right;
+}
+
+.footer-sm img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+    footer ul li a {
+        font-size: 20px;
+        color: #fff;
+        line-height: 40px;
+        text-transform: uppercase;
+    }
+    footer ul {
+        padding-right: 30px;
+    }
+}
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    color: #cb10a2;
+    letter-spacing: 2px;
+    font-family: "Inconsolata", monospace;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 750px; /* Width of the bottom dock */
+    background-color: #555;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -300px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+.profile-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    border-radius: 50%;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tab content {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+} 
