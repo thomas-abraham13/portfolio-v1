@@ -247,7 +247,7 @@ header > nav > ul > li > a {
     width: 100%;
     height: calc(100vh - 100px);
     /* background-image:url("https://media3.giphy.com/media/BHNfhgU63qrks/giphy.gif");  */
-    background-image: url("https://media.giphy.com/media/CW16nFVXLSQxSMUEMd/giphy.gif");
+    background-image: url("images/index_banner.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -257,7 +257,7 @@ header > nav > ul > li > a {
 .error-banner {
     width: 100%;
     height: calc(100vh - 100px);
-    background-image: url("https://media.giphy.com/media/14uQ3cOFteDaU/giphy.gif");
+    background-image: url("images/404_banner.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -267,7 +267,7 @@ header > nav > ul > li > a {
 #project-banner {
     width: 100%;
     height: calc(90vh - 100px);
-    background-image: url("https://media.giphy.com/media/A5ffIYwJoEpVcMOYiO/giphy.gif");
+    background-image: url("images/project_banner.webp");
     /* background-image:url("https://data.whicdn.com/images/51034696/superthumb.gif?t=1359753258");  */
     background-repeat: no-repeat;
     background-position: center;
@@ -278,7 +278,7 @@ header > nav > ul > li > a {
 #contact-banner {
     width: 100%;
     height: calc(90vh - 100px);
-    background-image: url("https://media.giphy.com/media/7F2HFcT5Ww7C5rRjso/giphy.gif");
+    background-image: url("images/contact_banner.webp");
     /* background-image:url("https://lofigirl.com/wp-content/uploads/2023/02/DAY_UPDATE_ILLU.jpg");  */
     background-repeat: no-repeat;
     background-position: center;
@@ -290,7 +290,7 @@ header > nav > ul > li > a {
     width: 100%;
     height: calc(90vh - 100px);
     /* background-image:url("https://i.pinimg.com/originals/7b/62/25/7b6225a5d44177c67dd132be70a03efe.gif");  */
-    background-image: url("https://media.giphy.com/media/xJRhr0sDFwmppinuRa/giphy.gif");
+    background-image: url("images/author_banner.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
